@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Large model weights (GitHub limits files to 100MB)
+*.pt
+*.pth
+*.bin
+*.onnx
+exported_model/*.pt
+exported_model/*.pth
+
+# Logs & temp
+*.log
+.DS_Store
+Thumbs.db
