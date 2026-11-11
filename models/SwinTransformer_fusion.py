@@ -725,7 +725,7 @@ if __name__ == "__main__":
     
     # Giả lập đầu vào kinematics 3 trục trong 51 điểm thời gian
     x_kine = torch.randn(2, 3, 51)
-    # Giả lập đầu vào đặc trưng video 1024 chiều từ DINO-v2
+    # Giả lập đầu vào đặc trưng video 1024 chiều từ DINO-v3 Video Encoder
     vid_feat = torch.randn(2, 1024)
     
     out = net(x_kine, vid_feat)
